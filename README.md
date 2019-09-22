@@ -103,9 +103,9 @@ Overfitting is a problem in machine learning algorithms. Sometimes we create a m
 
 For example, if we get a regression problem, we might create a funtion that only fit to our dataset. The moment we test it, we fail. That's why is always necessary to test our models.
 
-```latex
-w^* =\arg{\min_ w \sum_j (t(x_j)-\sum_i w_ih_i(x_j))^2}
-```
+![equation](https://latex.codecogs.com/gif.latex?w^*&space;=\arg{\min_&space;w&space;\sum_j&space;\big(t(x_j)-\sum_i&space;w_ih_i(x_j)\big)^2&space;&plus;&space;\lambda&space;\sum^k_{i=1}|w_i|^2})
+
+Another way to prevent overfitting in case we are working with images is the dropout.
 
 ## Overall dependencies
 
