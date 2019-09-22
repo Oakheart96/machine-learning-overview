@@ -90,12 +90,31 @@ another text file:
 data = open('file.txt', 'r').read() 
 ```
 
+### Machine Learning Algorithms
+
+The 3 different classifications for machine learning algorithms are:
+Unsupervised - Kmeans Clustering, Neural Networks,
+Semisupervised - We won't study them here.
+Reinforcement - Qlearning, Support Vector,Decision Tree, Linear Regression, Logistic Regression, Bayes, Knearest, Neural Networks,...
+
+### Prevent Overfitting
+
+Overfitting is a problem in machine learning algorithms. Sometimes we create a model for our dataset that fits very well, but it doesn't have to much space of margin. 
+
+For example, if we get a regression problem, we might create a funtion that only fit to our dataset. The moment we test it, we fail. That's why is always necessary to test our models.
+
+```latex
+w^* =\arg{\min_ w \sum_j (t(x_j)-\sum_i w_ih_i(x_j))^2}
+```
+
 ## Overall dependencies
 
 * numpy
+* os
+* csv
 
 ## Usage
 
-Type `jupyter notebook` into terminal and it will run. 
+Type `jupyter notebook` into terminal to see the info of each machine learning algorithm. 
 
 We don't have dataset, so you won't be able to run the code inside the notebooks. It's just an info file for you to do your research and adapt it for your own porpouses.
